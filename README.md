@@ -1,6 +1,4 @@
-Aqui está um exemplo de README para o seu projeto:
 
----
 
 # Application Search Server
 
