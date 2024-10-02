@@ -4,6 +4,11 @@
 
 Este projeto é um aplicativo CLI (Command Line Interface) em Go para buscar endereços IP e servidores de nome (NS) para um host especificado na internet.
 
+## comando para instalar lib
+
+```
+go get "github.com/urfave/cli"
+```
 ## Funcionalidades
 
 - Buscar endereços IP associados a um domínio.
