@@ -10,8 +10,8 @@ import (
 
 func main() {
 	fmt.Printf("Initializing APP")
-	aplicacao := app.Gerar()
-	if err := aplicacao.Run(os.Args); err != nil {
+	r := app.Gerar()
+	if err := r.Run(os.Args); err != nil {
 		log.Fatal(err)
 	}
 }
